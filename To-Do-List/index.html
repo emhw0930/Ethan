@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>To-Do List App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul id="header">
+                    <li><a href="../Main-No-Anime/index.html">Home</a></li>
+                    <li><a href="../About/about.html">About</a></li>
+                    <li><a href="../Resume/resume.html">Resume</a></li>
+                    <li><a href="../Chrome-Dinosaur/index.html">Game</a></li>
+                    <li><a href="../To-Do-List/index.html">To-Do</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container"> 
+            <div class="time-container">
+                <span id="datetime"></span>
+                <span id="time"></span>
+            </div>
+            <div class="todo-app">
+                <div class="top-line">
+                    <h2>To-Do List </h2>
+                </div>
+                <!-- <div id="count"> <h2> Count: </h2> </div> -->
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="Add your text">
+                    <button id="add-button" onclick="addTask()">Add</button>
+                </div>
+                <ul id="list-container">
+                    <!-- <li class="checked">Task 1</li>
+                    <li>Task 2</li>
+                    <li>Task 3</li> -->
+                </ul>
+            </div> 
+        </div>
+    <script src="script.js"></script>
+    </body>
+</html>

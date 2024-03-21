@@ -1,0 +1,130 @@
+/* Resetting default margin and padding */
+body, h1, h3, ul, li, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Use a common font for better readability */
+}
+
+/* Centering the content */
+
+body {
+    text-align: left; /* Align content to the left */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f8f8f8; /* Add a light background color for better contrast */
+}
+
+header {
+    justify-content: center;
+    background: #f8f8f8;
+    width: 100%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff; /* Set text color */
+    z-index: 1000;
+}
+/* header:hover {
+    margin-top: 0px; /* Final margin-top value }*/
+
+nav ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-left: 20px; /* Add margin between list items */
+}
+
+
+/* Styling the headings */
+h1 {
+    font-size: 40px; /* Increase the font size for the main heading */
+    color: #333; /* Set a darker color for better readability */
+}
+
+h3 {
+    font-size: 30px; /* Increase the font size for section headings */
+    margin-top: 30px; /* Add more space above section headings */
+    margin-bottom: 15px; /* Add more space below section headings */
+    color: #444; /* Set a slightly darker color for section headings */
+}
+
+p:last-of-type {
+    padding-bottom: 100px; /* Increase the padding at the bottom of the last section */
+}
+
+h4 {
+    color: #555;
+}
+
+/* Styling the list */
+.content ul {
+    list-style-type: none;
+    margin-bottom: 15px; /* Add more space below the list */
+}
+
+.content li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px; /* Adjust more space between list items */
+    color: #666;
+}
+
+.content li:before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: #007bff;
+}
+
+
+/* Styling the links */
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #007bff; /* Use a primary color for links */
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+a:hover {
+    color: #034c9b; /* Darken the color on hover */
+}
+
+/* Styling the image */
+img {
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 15%;
+    object-fit: cover;
+    margin-bottom: 20px; /* Add more space below the image */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+/* Styling the paragraphs */
+p {
+    margin-top: 15px;
+    margin-bottom: 15px; /* Add more space below paragraphs */
+    color: #666; /* Use a slightly darker color for paragraphs */
+    max-width: 700px; /* Limit the width of paragraphs */
+    line-height: 1.5;
+}
+
+
+#typing-animation {
+    overflow: hidden; /* Prevent text from overflowing */
+    border-right: .15em solid #007bff; /* Cursor */
+    white-space: nowrap; /* Keep the text in one line */
+    margin: 0 auto; /* Centering the text */
+    font-size: 40px; /* Adjust font size as needed */
+    animation: blink 1s infinite;
+}
+
+
+@keyframes blink {
+0%, 100% { border-color: #007bff; } /* Start and end with border color */
+50% { border-color: transparent; } /* Halfway, hide the border */
+}
+
+

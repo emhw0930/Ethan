@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Wu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="../About/about.html">About</a></li>
+                <li><a href="../Resume/resume.html">Resume</a></li>
+                <li><a href="../Chrome-Dinosaur/index.html">Game</a></li>
+                <li><a href="../To-Do-List/index.html">To-Do</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <div>
+        <h1 id="typing-animation">Hello World. I am Ethan Wu</h1>
+    </div>
+
+    <!-- picture -->
+    <img src="../ethan-wu.jpg" alt="Description of the image">
+    <h4>A student at UC Berkeley studying computer science</h4>
+    
+
+    <div class="container">
+        <div class="content">
+            <!-- Introduction -->
+            <h3>Introduction: </h3>
+            <hr>
+            <p>
+                Hi! I am a junior pursuing a Bachelor's degree in Computer Science at the University of California, Berkeley. 
+                I am interested in any tech related field and passionate in teaching and sharing computer science knowledge with 
+                others.
+            </p>
+            <h3>Relevent Courses: </h3>
+            <hr>
+            <ul id="task">
+                <li>CS 88 Computational Structure in Data Science</li>
+                <li>CS 61A Computational Structure of Computer Programs</li>
+                <li>CS 61B Data Structure</li>
+                <li>CS 61C Machine Structure</li>
+                <li>CS 70 Discrete Math</li>
+                <li>CS 170 Efficient Algorithms and Intractable Problems</li>
+                <li>CS 188 Introduction to Artificial Intelligence</li>
+                <li>Data 8 Intro to Data Science</li>
+                <li>Data 100 Principles of Data Science</li>
+                <li>Math 54 Linear Algebra and Differential Equations</li>
+                <li>Stat 88 Probability and Mathematical Statistics in Data Science</li>
+            </ul>
+        
+            <!-- Course Staff -->
+            <h3>Course Staff:</h3>
+            <hr>
+            <a href="https://c88c.org/sp24/">CS 88: Computational Structure in Data Science</a>
+            <p> 
+                CS 88 is for students who would like a more complete introduction to Computer Science. We will cover a variety 
+                of topics such as functional programming, data abstraction, object-oriented programming, and program complexity. 
+                This course will be taught primarily in Python. However, we are interested in teaching you foundational programming
+                ideas, not just how to use one particular programming language. 
+            </p>
+            <p>
+                <b>Tutor:</b> 
+                <br> As a part of course staff, I participate in weekly staff meeting with 15 other staff members as well as Professor
+                Michael Ball. Our goal is to assist student to learn and enjoy the most fundamental part of computer science. 
+                As a tutor, I host weekly office hours, hold midterm review sections, and reply questions on ed to assist 500+ students
+                in learning. 
+            </p>
+        
+            <!-- Club Experience -->
+            <h3>Club Experience:</h3>
+            <hr>
+            <a href="https://csmentors.berkeley.edu/#/">Computer Science Mentor:</a>
+            <p>
+                CSM is a student-run organization that provides guidance and resources in a smaller classroom environment through group 
+                tutoring sessions. Each section has 4-6 students and focuses on material from one of the courses listed above. Outside 
+                of teaching, our mentors watch movies, climb up to Soda almost everyday, hike, study together, and more!
+            </p>
+            <p>
+                <b>Senior Content Mentor:</b> 
+                <br> As a senior content mentor, I learned how to use overleaf to make practice coding problems
+                with skeleton code for weekly content worksheets for the mentors in CS88: Computational Structure in Data Science to use
+                as a supplement for weekly teaching sections. In addition, I am also a mentor who teach a section to 5 people weekly for 
+                CS88 on the content of iteration, recursion, trees, linked list, OOP, and higher order function. 
+                <br>
+                <br>
+                <b>Junior Mentor:</b> 
+                <br> As a junior mentor, I learned how to teach a section, answer questions, and the techniques of 
+                whiteboarding for students to visualize a complicated concept. In addition, I also make walkthrough videos to explain
+                past midterms and finals problems and post it on the CS88 official website to enhance students' learning experiences and 
+                help them to review for midterm and final. 
+            </p>
+        
+            <!-- Internship -->
+            <h3>Internship:</h3>
+            <hr>
+            <a href="https://www.genpt.com/">Genuine Parts Company:</a>
+            <p> 
+                <b>Software Engineer Summer Intern:</b> 
+                <br>
+                <ul>
+                    <li>Incoming Summer 2024 Intern</li>
+                </ul>
+            </p>
+            <br>
+
+            <a href="https://www.gis.tw/">Feng Chia University:</a>
+            <p> 
+                <b>Computer Vision Summer Intern:</b> <a href="https://www.youtube.com/watch?v=sv5ozpfohB4&t=34s" id="link">link</a>
+                <br>
+                This was my first summer internship, located in Taichung, Taiwan. As a computer vision intern, I learned how to 
+                use YOLO V5, OpenCV, and Python to train a customized dataset of Sambar Deer images for object detection. This 
+                enabled me to detect the position and activity of the deer in the frame for the local animal farm.
+                <br>
+                <br>
+                The most challenging obstacle I faced during the internship was ensuring that the index for each deer remained 
+                consistent throughout the entire video. Since the deer would move around and the index provided by YOLO V5 
+                differed in every frame, I calculated the Euclidean distance between each deer in the current frame and every 
+                other deer in the previous frame. Then, I assigned the index of the current frame's deer to be the index of the 
+                closest deer from the previous frame based on this distance calculation. This approach ensured that the index of 
+                the same deer remained constant throughout the entire video.
+                <br>
+                <br>
+                Throughout this internship, I learned the basic of computer vision, including how to train a dataset, label image,
+                use OpenCV, and fine tune the model. 
+            </p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
